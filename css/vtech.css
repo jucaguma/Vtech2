@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet')
+{padding:0;
+margin:0;
+}
+
+html{
+	background-color: #fff;
+}
+
+body{
+	font: 12px/1.6; 
+	font-family: 'Quicksand', sans-serif;
+	color: #777;
+	background-color: #FFF; 
+	text-align: center;
+	height: 50px;
+}
+
+header {
+	background-color: #87288D;
+	color: #FFFFFF;
+	height: 85px;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+h6{
+	font-size: 60px;
+	font-family: 'Quicksand';
+	color: #87288D;
+}
+
+header .row{
+	align-items: center;
+	justify-content: flex-end ;
+}
+
+h1{
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-size: 40px;
+	width: 800px;
+	margin-left: 20px;
+	text-align: left;
+	justify-content: flex-start;
+} 
+
+h2{
+	color: #035480;
+}
+header h2{
+	color: #F8F9FA;
+	backgound-color: #FFF;
+}
+
+header .row{
+	text-align: center;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	backgound-color: #FFF;
+}
+
+#navbar {
+	align-content: center;
+	background-color: #FFF;
+	font-family: 'Quicksand';
+	border-spacing: inherit;
+	text-align: center;
+	font-size: 10;
+}
+
+
+#button{
+	text-align: center;
+	margin: 25px 20px 50px 0px;
+}
+
+#button .btn-primary{
+	background-color: #015580;
+	font:16px/1.6; 
+	font-family: quicksand;
+	color: #fff;	
+	border-color: #fff;
+	
+}
+
+header span{
+	color: #FFFFF;
+}
+
+#carousel1{
+	text-align: center;
+	margin-top:1px;
+	margin-bottom:100px;
+}
+
+
+
+#carousel1 .carousel-indicators{
+    color: #4E297A;
+}
+
+
+#productos{
+	font:16px/1.6; 
+	font-family: quicksand;
+	color: #777;	
+	background-color: #fff;
+	margin: 25px 200px 80px 200px;
+	align-content: center;
+}
+
+#productos .title {
+	font-size: 40px;
+    text-align: left;
+    color: #000;
+}
+
+#productos .title-ptop {
+    padding-top: 100px;
+}
+
+#productos .subtitle {
+    text-align: left;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+section{
+	background-color: #fff;
+}
+
+#productos img{
+	width: 500px;
+    text-align: center;
+    margin-top: 50px;
+	padding-left: 50px;
+}
+#services{
+	padding: 150px 0;
+	color:#222222;
+	text-align: center;
+	background-color: #EFEFEF;
+	
+}
+
+#services h2{
+font-size: 30px;
+}
+	
+#services h4{
+	padding-top: 30px;
+	font-size: 25px;
+}
+
+#services .title{
+font-size: 40px;
+text-align: left;
+}
+
+#products h3{
+	font-size: 13px;
+}
+#products h4{
+color: #024C84;	
+}
+#productos .btn{
+	background-color: #000;
+	color:#C9C8C8;
+ 
+}
+#services {
+	background-color: #F8F9FA;
+	text-align: center;
+	
+} 
+#services article{
+	padding-left: 25px;
+	padding-right: 25px;
+	border-right: medium;
+	padding-bottom: 70px;
+	align-content: center;
+	text-align: center;
+}
+#services .title{
+	font-size: 70px;
+	text-transform: uppercase;
+	color: #4E297A;
+	padding:50px;
+}
+#services .p{
+	
+	text-align: center;
+	
+}
+footer{
+	position: static;
+	bottom: 0;
+}
+
+h4{
+	color: #000;
+}
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #4E297A;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: bold 16px sans-serif;
+	padding: 25px 50px 15px 50px;
+	margin-top: 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 20%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 20px 'Quicksand', bold;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 40%;
+	
+}
+
+.footer-distributed h3 span{
+	color:  #0041FF;
+	
+}
+
+/* Footer links */
+
+.footer-distributed .footer-text{
+	color:  #FFFF0F;
+	font-size: 50px;
+	
+}
+
+.footer-distributed .footer-text a{
+	display:inline-block;
+	line-height: 1.8;
+	color:  inherit;
+	font-size: 10px;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 4;
+	text-align: center;
+	font-family: Quicksand;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:2;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
